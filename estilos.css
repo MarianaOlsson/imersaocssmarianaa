@@ -1,0 +1,36 @@
+body {
+    background-image: url(https://www.desktopbackground.org/p/2013/09/11/637320_pikachu-backgrounds-wallpapers-cave_1920x1080_h.jpg);
+    background-size: auto 100vh;
+    height: 100vh;
+    font-family: arial;  
+  }
+  /*na parte do menu, do codigo html, é onde apresento os links, então pra estilizar esses links eu devo usar a nomenclatura de .menu {} e inserir as mudanças desejadas dentro das chaves*/
+  .menu {
+      background-color: #211709;    
+  }
+  
+  .menu ul {
+    display: flex;
+    justify-content: space-around;
+  }
+  
+  .menu li {
+    list-style: none;
+  }
+  a {
+    color: white;
+    text-decoration: none;
+  }
+  a:hover {
+    text-decoration: underline;
+  }
+  
+  .site-title {
+    text-align: center;
+    color: #211709;  
+  }
+  
+  .site-subtitle {
+    text-align: center;
+    color: #c43338;
+  }
